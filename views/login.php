@@ -7,17 +7,22 @@
 	<title>登录</title>
 </head>
 <body>
-	<table>
-		<form action="login_send.php" method="post">
-			<tr>
-				<td>用户名</td>
-				<td><input type="text" name='username' value=""  /></td>
-			</tr>
-			<tr>
-				<td>密码</td>
-				<td><input type="password" name='password' value=""  /></td>
-			</tr>
-		</form>	
-	</table>
+	<center>
+		<table>
+			<form action="login_send.php" method="post">
+				<tr>
+					<td>用户名</td>
+					<td><input type="text" name='username' value=""  /></td>
+				</tr>
+				<tr>
+					<td>密码</td>
+					<td><input type="password" name='password' value=""  /></td>
+				</tr>
+				<tr>
+					<input type="submit" value="登录"  />
+				</tr>
+			</form>	
+		</table>
+	</center>
 </body>
 </html>
