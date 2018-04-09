@@ -1,0 +1,2 @@
+# swoole_websocket_instant_chat
+使用swoole+websocket+redis+php7+mysql在linux上实现即时聊天通讯
