@@ -1,6 +1,6 @@
 <?php
 		
-	include_once './mysql_connect.php';
+//	include_once './mysql_connect.php';
 	
 	$username = $_POST['username'];
 	
