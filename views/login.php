@@ -19,7 +19,9 @@
 					<td><input type="password" name='password' value=""  /></td>
 				</tr>
 				<tr>
-					<input type="submit" value="登录"  />
+					<td>
+						<input type="submit" value="登录"  />
+					</td>
 				</tr>
 			</form>	
 		</table>
