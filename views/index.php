@@ -1,6 +1,6 @@
 <html><head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>workerman-chat PHP聊天室 Websocket(HTLM5/Flash)+PHP多进程socket实时推送技术</title>
+  <title>swoole+websocket+redis+php7+mysql在linux上实现即时聊天通讯</title>
   <script type="text/javascript">
   //WebSocket = null;
   </script>
@@ -11,7 +11,7 @@
   <script type="text/javascript" src="../public/js/web_socket.js"></script>
   <script type="text/javascript" src="../public/js/jquery.min.js"></script>
 </head>
-<body onload="connect();">
+<body>
     <div class="container">
 	    <div class="row clearfix">
 	        <div class="col-md-1 column">
@@ -38,10 +38,8 @@
 	           <div class="thumbnail">
                    <div class="caption" id="userlist"></div>
                </div>
-               <a href="http://workerman.net:8383" target="_blank"><img style="width:252px;margin-left:5px;" src="/img/workerman-todpole.png"></a>
 	        </div>
 	    </div>
     </div>
-    <script type="text/javascript">var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F7b1919221e89d2aa5711e4deb935debd' type='text/javascript'%3E%3C/script%3E"));</script>
 </body>
 </html>
